@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
+    API_ID = int(os.getenv("API_ID", "8714785"))
+    API_HASH = os.getenv("API_HASH", "ba9b8c523e7a8714785bb5480ace5089")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5844336856:AAGrazMt98EeuZj4k9gyNr9lJi2BtJy_0eA")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "TeraboxSearchBotV2")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQG9RlMAU-Kp-jbfVpxS6Bn9LLKvzjU5c58ZJ3isP-TRaA-cEpQiXHhrmJQJ-h9LyyMsIOmxU1rjNEEODqQY-AfQXG4vUTr89CGFlKlSTP3K2w1OBLm3YzhaI26QoFb5ZaTNlvuoNqvIrqsNR6WJFJ_b4IgI6os2nl5kwqrShsGI7iFcjl2bTCLfesqGG86kIRxZ0LSo2mGP-BKH12do6leafzbrEGdPjkmamVzFLltntisWwFLCeeWP3K3y0uunjBi7Rg1-D9Vw6sku_Z5K2wpktxSUlvsB72ZdJm1hPPC82Q6pz4O9gm9Gvv4dSzInZbTZt4xJ9ioEKq9FNp4xRY3CdoKqYAAAAABPkb95AA")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001766836256")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "TeraboxSearchBotV2")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1334951801"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "MR_INDIAN_Backup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,12 +29,12 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001766836256")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Lok:<password>@cluster0.vdi5xcy.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001766836256"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "TeraboxSearchBotV2")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
@@ -45,7 +45,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @CyniteSupport 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @MR_INDIAN_Backup 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -54,7 +54,7 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 ᴛᴇʀᴀ ʙᴏx - ᴀɢᴀʀ ᴀᴘᴘᴋᴏ ɴᴀʜɪ ᴘᴀᴛᴀ ᴋɪ ᴛᴇʀᴀʙᴏx sᴇ ᴍᴏᴠɪᴇs ᴋᴀɪsᴇ ᴅᴇᴋʜᴇ ᴛᴏ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢᴀʏᴇ ᴛᴇʀᴀ ʙᴏx ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇ
 
-ʀᴇɢᴀʀᴅs - @CyniteBackup"""
+ʀᴇɢᴀʀᴅs - @MR_INDIAN_Backup"""
     ABOUT_MDISK_TEXT = """
 𝗠𝗱𝗶𝘀𝗸 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो Mx Player App डाउनलोड करले😊👍
@@ -108,7 +108,7 @@ https://terabox.com/s/1QZGvLaoU_VMaSCDT2NNvOQ
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 @CyniteSupport
+👉 @MR_INDIAN_Backup
 
 """
 
